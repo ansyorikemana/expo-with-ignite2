@@ -9,10 +9,10 @@ import { FontAwesome } from '@expo/vector-icons'
 // Example
 ExamplesRegistry.addPluginExample('Vector Icons', () =>
   <View style={{flexDirection: 'row', justifyContent: 'space-around'}}>
-    <Icon FontAwesome='rocket' size={40} color='white' />
-    <Icon FontAwesome='send' size={40} color='white' />
-    <Icon FontAwesome='star' size={40} color='white' />
-    <Icon FontAwesome='trophy' size={40} color='white' />
-    <Icon FontAwesome='warning' size={40} color='white' />
+    <FontAwesome name='rocket' size={40} color='white' />
+    <FontAwesome name='send' size={40} color='white' />
+    <FontAwesome name='star' size={40} color='white' />
+    <FontAwesome name='trophy' size={40} color='white' />
+    <FontAwesome name='warning' size={40} color='white' />
   </View>
 )
