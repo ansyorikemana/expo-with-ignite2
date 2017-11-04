@@ -1,4 +1,7 @@
 {
   "name": "ExpoWithIgnite",
-  "displayName": "ExpoWithIgnite"
+  "displayName": "Expo with Ignite",
+  "expo": {
+    "sdkVersion": "22.0.0"
+  }
 }

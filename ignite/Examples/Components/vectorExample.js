@@ -5,6 +5,7 @@ import { View } from 'react-native'
 import ExamplesRegistry from '../../../App/Services/ExamplesRegistry'
 import Icon from 'react-native-vector-icons/FontAwesome'
 
+
 // Example
 ExamplesRegistry.addPluginExample('Vector Icons', () =>
   <View style={{flexDirection: 'row', justifyContent: 'space-around'}}>
