@@ -60,12 +60,5 @@ var AwakeInDevApp = function (_Component) {
   return AwakeInDevApp;
 }(_react.Component);
 
-
-_expo2.default.Font.loadAsync({ FontAwesome: require('./assets/fonts/FontAwesome.ttf') });
-// Expo.Font.loadAsync({
-//   Entypo:
-//   Montserrat: require('react-native-vector-icons/FontAwesome'),
-//   'Montserrat-SemiBold': require('./assets/fontsMontserrat-SemiBold.ttf'),
-// });
 _expo2.default.registerRootComponent(AwakeInDevApp);
 //# sourceMappingURL=crna-entry.js.map
