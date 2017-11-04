@@ -2,6 +2,25 @@
   "name": "ExpoWithIgnite",
   "displayName": "Expo with Ignite",
   "expo": {
-    "sdkVersion": "22.0.0"
+    "name": "Expo with Ignite",
+    "description": "No description",
+    "slug": "expowithignite",
+    "privacy": "public",
+    "sdkVersion": "22.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./App/Images/icon.png",
+    "splash": {
+      "image": "./App/Images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf"]
+    },
+    "ios": {
+      "supportsTablet": true
+    }
   }
 }
